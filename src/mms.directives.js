@@ -3,7 +3,7 @@
 /**
  * @ngdoc overview
  * @name mms.directives
- * 
+ *
  * @requires mms
  * @requires ui.bootstrap
  * @requires ui.sortable
@@ -14,7 +14,7 @@
  * This module provides prebuilt components that are commonly used by the mms
  * client applications, for example, cross referencing and element "spec window".
  * Since this module contains directives with ui elements, there's more dependencies
- * then just using the services module. In the future it will be more pick and 
+ * then just using the services module. In the future it will be more pick and
  * choose instead of everything being in one module.
  *
  * ## Links to dependencies
@@ -41,14 +41,14 @@
             <link rel="stylesheet" href="mms.css"/> <!-- mms directives css stylings -->
             <link rel="stylesheet" href="font-awesome.css"/>
             <link rel="stylesheet" href="angular-growl.css"/>
-            <link rel="stylesheet" href="redactor.css"/> 
+            <link rel="stylesheet" href="redactor.css"/>
         </head>
         <body>
             <div growl></div> <!-- for notifications -->
 
             <mms-spec mms-eid="_element_id"></mms-spec>
             <!-- this will display a 'spec window' for the element -->
-        
+
         <!-- dependencies -->
         <script src="jquery.js"></script>
         <script src="jquery-ui.js"></script>
